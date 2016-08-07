@@ -1,10 +1,5 @@
-
-h4, h5, h6,
-h1, h2, h3 {margin: 0;}
-ul, ol {margin: 0; padding:0;}
-p {margin: 0;}
 html, body{
-	font-family: 'Arial', sans-serif;
+	font-family: 'Palatino Linotype', sans-serif;
 	font-size: 100%;
 	background: #ffffff;
 }
@@ -24,6 +19,10 @@ a:focus {
   outline-offset: 0px;
   text-decoration:none;
 }
+h4, h5, h6,
+h1, h2, h3 {margin: 0;}
+ul, ol {margin: 0; padding:0;}
+p {margin: 0;}
 /*-- header_top --*/
 .sidebar{
   background:#6ecadc;
@@ -35,7 +34,7 @@ a:focus {
 	font-weight:700;
 	margin-bottom:1em;
 	COLOR:#fff;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Palatino Linotype', sans-serif;
 	
 }
 .sidebar img{
@@ -64,7 +63,7 @@ a:focus {
 
 /*----*/
 .main{  
-  padding:2em 0;
+  padding:0px 0;
 }
 .content{
 	margin-right:3em;
@@ -72,32 +71,33 @@ a:focus {
 
 /*--education--*/
 /*--experience--*/
-.experience {
+
+.experience{
 	margin:2em 0;
 
 }
-.education  h3, .experience h3, .skills h3, .honors h3{
+.education  h3, .experience h3, .skills h3, .honors h3, .activity h3{
   background: #999;
   color: #FFF;
   padding: 3px 20px;
 
 }
 h3.clr3{
-  background:#3eb991;
+  background: 33FF99;
 }
 
 .experience_details,.education_details {
-	padding:1.5em 0 0em 2em;
+	padding:1.5em 0 0 2em;
 }
 .experience_details h4,.education_details h4{
 	color:#333;
 	font-weight:600;
-	font-size:1.5em;
+	font-size:1.0em;
 	margin-bottom:15px;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Palatino Linotype', sans-serif;
 }
 .experience_details h4 span,.education_details h4 span{
-	font-size: 0.65em;
+	font-size: 0.85em;
   margin-left: 5px;
   color: #999;
   font-weight:400;
@@ -106,7 +106,7 @@ h3.clr3{
 	font-weight:400;
 	margin-bottom:10px;
   margin-left: 25px;
-	font-size:1.1em;
+	font-size:1.0em;
 }
 .experience_details p,.education_details p{
 	color:#999;
@@ -147,12 +147,30 @@ h3.clr3{
   padding:1.5em 0 0em 2em;
 }
 
-.honors_details h4{
+.honors_details h5{
   font-size:1.0em;
-  margin-bottom:6px;
+  margin-bottom:15px;
 }
-.honors_details h4 span{
-  font-size: 0.65em;
+.honors_details h5 span{
+  font-size: 0.85em;
+  margin-left: 5px;
+  color: #999;
+  font-weight:400;
+}
+/*--activity--*/
+.activity{
+  margin:2em 0;
+}
+.activity_details {
+  padding:1.5em 0 0em 2em;
+}
+
+.activity_details h5{
+  font-size:1.0em;
+  margin-bottom:15px;
+}
+.activity_details h5 span{
+  font-size: 0.85em;
   margin-left: 5px;
   color: #999;
   font-weight:400;
