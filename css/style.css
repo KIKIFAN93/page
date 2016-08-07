@@ -1,0 +1,160 @@
+
+h4, h5, h6,
+h1, h2, h3 {margin: 0;}
+ul, ol {margin: 0; padding:0;}
+p {margin: 0;}
+html, body{
+	font-family: 'Arial', sans-serif;
+	font-size: 100%;
+	background: #ffffff;
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}	
+body {
+  padding-top:0px;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+  text-decoration:none;
+}
+/*-- header_top --*/
+.sidebar{
+  background:#6ecadc;
+  top: 0px;
+  padding:2em 30px;
+}
+.sidebar h1{
+	font-size:2.0em;
+	font-weight:700;
+	margin-bottom:1em;
+	COLOR:#fff;
+	font-family: 'Varela Round', sans-serif;
+	
+}
+.sidebar img{
+	border:1px solid #fff;
+	padding:1em;
+	width:100%;
+}
+.details{
+	margin-top:2em;
+}
+.details h3{
+	font-weight:600;
+	font-size:1em;
+	color:#fff;
+}  
+
+.details p{
+	color:#101010;
+	font-size:0.9em;
+	margin:5px 0 0.5em 0;
+}
+.details p a{
+	color:#101010;
+	font-size:0.9em;
+}
+
+/*----*/
+.main{  
+  padding:2em 0;
+}
+.content{
+	margin-right:3em;
+}
+
+/*--education--*/
+/*--experience--*/
+.experience {
+	margin:2em 0;
+
+}
+.education  h3, .experience h3, .skills h3, .honors h3{
+  background: #999;
+  color: #FFF;
+  padding: 3px 20px;
+
+}
+h3.clr3{
+  background:#3eb991;
+}
+
+.experience_details,.education_details {
+	padding:1.5em 0 0em 2em;
+}
+.experience_details h4,.education_details h4{
+	color:#333;
+	font-weight:600;
+	font-size:1.5em;
+	margin-bottom:15px;
+	font-family: 'Varela Round', sans-serif;
+}
+.experience_details h4 span,.education_details h4 span{
+	font-size: 0.65em;
+  margin-left: 5px;
+  color: #999;
+  font-weight:400;
+}
+.experience_details h6,.education_details h5{
+	font-weight:400;
+	margin-bottom:10px;
+  margin-left: 25px;
+	font-size:1.1em;
+}
+.experience_details p,.education_details p{
+	color:#999;
+	font-weight:300;
+	line-height:1.7em;
+}
+
+/*--skills--*/
+.skills{
+	margin:2em 0;
+}
+
+.skill_list{
+	padding:1.5em 0 0 2em;
+}
+.skill1,.skill2{
+	 float:left;
+	 width:30%;
+}
+.skill1 h4,.skill2 h4{
+	color:#333;
+	font-weight:600;
+	margin-bottom:1em;
+	display:inline-block;
+}
+.skill1 ul,.skill2 ul{
+	padding-left:40px;
+}
+.skill1 ul li,.skill2 ul li{
+	color:#333;
+}
+
+/*--honors--*/
+.honors{
+  margin:2em 0;
+}
+.honors_details {
+  padding:1.5em 0 0em 2em;
+}
+
+.honors_details h4{
+  font-size:1.0em;
+  margin-bottom:6px;
+}
+.honors_details h4 span{
+  font-size: 0.65em;
+  margin-left: 5px;
+  color: #999;
+  font-weight:400;
+}
+
