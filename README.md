@@ -1,2 +1,2 @@
 # page
-This is FANQIQI's profile.
+This is FAN QIQI's profile.
